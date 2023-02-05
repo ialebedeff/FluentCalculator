@@ -1,7 +1,20 @@
 ﻿namespace FluentCalc.Calculator;
+
+/// <summary>
+/// Калькулятор
+/// </summary>
 public class FluentCalculator
 {
+    /// <summary>
+    /// Список операций и значений
+    /// </summary>
     public List<KeyValuePair<int, IOperation?>> Operations { get; set; } = new();
+
+    /// <summary>
+    /// Получить результат вычислений
+    /// </summary>
+    /// <returns></returns>
+    /// <exception cref="InvalidOperationException"></exception>
     public int? Result()
     {
         if (Operations.Count is 0)
