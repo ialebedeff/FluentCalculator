@@ -1,5 +1,6 @@
 using FluentCalc.Calculator;
 
+
 namespace FluentCalc.UnitTest
 {
     [TestClass]
@@ -8,7 +9,7 @@ namespace FluentCalc.UnitTest
         [TestMethod]
         public void TestMethod1()
         {
-            FluentCalculator calculator = new FluentCalculator();
+            Calculator.FluentCalculator calculator = new Calculator.FluentCalculator();
 
             int? result = calculator.One().Plus().One().Plus().Three().Result();
 
@@ -17,7 +18,7 @@ namespace FluentCalc.UnitTest
         [TestMethod]
         public void TestMethod2()
         {
-            FluentCalculator calculator = new FluentCalculator();
+            Calculator.FluentCalculator calculator = new Calculator.FluentCalculator();
 
             int? result = calculator.One().Multiply().Five().Result();
 
@@ -26,7 +27,7 @@ namespace FluentCalc.UnitTest
         [TestMethod]
         public void TestMethod3()
         {
-            FluentCalculator calculator = new FluentCalculator();
+            Calculator.FluentCalculator calculator = new Calculator.FluentCalculator();
 
             int? result = calculator.One().Plus().Ten().Result();
 
@@ -35,7 +36,7 @@ namespace FluentCalc.UnitTest
         [TestMethod]
         public void TestMethod4()
         {
-            FluentCalculator calculator = new FluentCalculator();
+            Calculator.FluentCalculator calculator = new Calculator.FluentCalculator();
 
             int? result = calculator.One().Minus().Three().Result();
 
@@ -44,7 +45,7 @@ namespace FluentCalc.UnitTest
         [TestMethod]
         public void TestMethod5()
         {
-            FluentCalculator calculator = new FluentCalculator();
+            Calculator.FluentCalculator calculator = new Calculator.FluentCalculator();
 
             int? result = calculator.One().Plus().Ten().Result();
 
@@ -53,7 +54,7 @@ namespace FluentCalc.UnitTest
         [TestMethod]
         public void TestMethod6()
         {
-            FluentCalculator calculator = new FluentCalculator();
+            Calculator.FluentCalculator calculator = new Calculator.FluentCalculator();
 
             int? result = calculator.One().Plus().Two().Plus().Three().Minus().One().Minus().Two().Minus().Four().Result();
 
