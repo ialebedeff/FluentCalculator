@@ -46,3 +46,10 @@ Rules:
 * A Value can only call an Operation
 * An Operation can only call a Value
 * A Value should be resolvable to a primitive integer, if needed as such
+
+Examples:
+
+```
+var calculator = new FluentCalculator();
+var result = calculator.One().Plus().One().Result();
+```
