@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FluentCalculator
-{
-    internal class _Import
-    {
-    }
-}
+﻿global using FluentCalc.Calculator;
+global using FluentCalc.Extensions;
+global using FluentCalc.Interfaces;
+global using FluentCalc.Operations;

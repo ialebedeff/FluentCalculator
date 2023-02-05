@@ -1,5 +1,5 @@
 using FluentCalc.Calculator;
-
+using FluentCalc.Extensions;
 
 namespace FluentCalc.UnitTest
 {

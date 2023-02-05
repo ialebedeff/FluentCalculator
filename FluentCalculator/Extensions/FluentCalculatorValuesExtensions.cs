@@ -1,4 +1,4 @@
-﻿namespace FluentCalc.Calculator;
+﻿namespace FluentCalc.Extensions;
 
 public static class FluentCalculatorValuesExtensions
 {
