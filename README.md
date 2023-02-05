@@ -1,7 +1,15 @@
-# FluentCalculator
-SourceWork - Может ли переменная быть одновременно True и False?
+# SourceWork - Может ли переменная быть одновременно True и False?
 Определите someBool так, чтобы следующее выражение возвращало true:
 someBool == true && someBool == false
+
+# FluentCalculator
+
+Examples:
+
+```
+var calculator = new FluentCalculator();
+var result = calculator.One().Plus().One().Result();
+```
 
 FluentCalculator - Implement a simple calculator with fluent syntax
 
@@ -47,9 +55,4 @@ Rules:
 * An Operation can only call a Value
 * A Value should be resolvable to a primitive integer, if needed as such
 
-Examples:
 
-```
-var calculator = new FluentCalculator();
-var result = calculator.One().Plus().One().Result();
-```
